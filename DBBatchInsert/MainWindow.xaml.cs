@@ -82,7 +82,7 @@ namespace DBBatchInsert
                 st.Stop();
                 Msg += String.Format("普通插入用时:{0}秒\n", st.ElapsedMilliseconds / 1000);
 
-//                 st.Start();
+//                 st.Start();dsfdsfdfsdf
 //                 BatchInsert(comm);
 //                 st.Stop();
 //                 Msg += String.Format("批量插入用时:{0}秒", st.ElapsedMilliseconds / 1000);
@@ -91,6 +91,7 @@ namespace DBBatchInsert
             }
             catch (System.Exception ex)
             {
+
             }
             finally
             {
@@ -177,6 +178,11 @@ namespace DBBatchInsert
                         }
                         finally
                         {
+
+
+
+
+
                         }
                     }
                 }
